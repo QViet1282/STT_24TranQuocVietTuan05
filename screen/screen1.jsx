@@ -4,9 +4,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.viewColumnCenter}>
-
-        {/* <Image source={require('../assets/icon.png')}></Image> */}
-        {/* <Image style={{ width: 301, height: 361 }} source={require('../screen/vs_blue')}/> */}
         <Image style={{ width: 301, height: 361 }} source={require('../assets/vs_blue.png')}></Image>
         <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Điện Thoại Vsmart Joy 3 - Hàng chính hãng</Text>
       </View>
