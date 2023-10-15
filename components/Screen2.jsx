@@ -37,7 +37,7 @@ const Screen2 = () => {
                 </TouchableOpacity>
                 <TouchableOpacity style={{ alignItems: 'center', justifyContent: 'center', marginTop: 30, width: 326, height: 44, borderRadius: 10, backgroundColor: 'rgba(25, 82, 226, 0.58)' }}
                     onPress={() => {
-                        Navigator.navigate('Screen1', { image: img })
+                        Navigator.navigate('Home', { image: img })
                     }}>
                     <Text style={{ fontSize: 18, fontWeight: '500', color: 'white' }}>XONG</Text>
                 </TouchableOpacity>

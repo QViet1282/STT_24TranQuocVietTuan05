@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-const Screen1 = (imgcolor) => {
-  const data = imgcolor.route.params?.image;
+const Screen1 = (color) => {
+  const data = color.route.params?.image;
   const Navigator = useNavigation();
   return (
     <View style={styles.container}>
